@@ -3,7 +3,7 @@
   * @file    GPIO_Toggle\main.c
   * @author  MCD Application Team
   * @version V2.0.4
-  * @date    26-April-2018
+  * @date    06-Dec-2020
   * @brief   This file contains the main function for GPIO Toggle example.
   ******************************************************************************
   * @attention
@@ -38,8 +38,8 @@
 /* Private define ------------------------------------------------------------*/
 /* Evalboard I/Os configuration */
 
-#define LED_GPIO_PORT  (GPIOH)
-#define LED_GPIO_PINS  (GPIO_PIN_3 | GPIO_PIN_2 | GPIO_PIN_1 | GPIO_PIN_0)
+#define LED_GPIO_PORT  (GPIOC)
+#define LED_GPIO_PINS  (GPIO_PIN_5)
 
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
